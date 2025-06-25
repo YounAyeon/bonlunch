@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://52.78.81.165:5173")
 @RestController
 @RequestMapping("/api")// /api메핑을 처리하겠는 설정
 public class GoodsController {
